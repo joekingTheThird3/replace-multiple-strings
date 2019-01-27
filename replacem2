@@ -1,0 +1,7 @@
+#    replace multiple items in  string
+#    t=text
+#    ltu is list of tuples
+def replacem2(t,ltu):
+    for k,v in ltu:
+        t=t.replace(k,v)
+    return t
